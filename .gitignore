@@ -1,0 +1,30 @@
+# Unreal Engine 5.8 build/cache & large MetaHuman assets (>100 MB)
+UnrealProject 5.8/Binaries/
+UnrealProject 5.8/Intermediate/
+UnrealProject 5.8/DerivedDataCache/
+UnrealProject 5.8/Saved/
+UnrealProject 5.8/Content/
+UnrealProject 5.8/.vs/
+*.sln
+*.vcxproj*
+
+# Generated / cached audio (regenerated automatically by assistant.py)
+UnrealProject 5.8/Voice/replies/
+UnrealProject 5.8/Voice/quick/
+UnrealProject 5.8/Voice/fillers/
+UnrealProject 5.8/Voice/samples/
+UnrealProject 5.8/Voice/piper_backup/
+UnrealProject 5.8/Voice/backup_intro_prototipo/
+
+# Python & local binary installers/venvs
+**/__pycache__/
+*.pyc
+Tools/tts/.venv/
+Tools/tts/ref_candidates/
+Tools/ollama_setup/
+Tools/piper/
+*.log
+
+# Backups & logs
+Backups/
+Logs/

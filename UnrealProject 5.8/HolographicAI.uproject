@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{AEC56A86-42DA-F661-2AF5-EEB5ACCDF703}",
+	"Category": "",
+	"Description": "Holographic AI Assistant - Stage 1 prototype",
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "WebSocketNetworking",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "HolographicAI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

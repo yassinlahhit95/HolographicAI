@@ -1,0 +1,195 @@
+{
+  "_nota": "Perfiles institucionales y de colaboradores. Los perfiles 'verified_web' o 'verified' pueden mencionarse segun sus directrices; los 'draft' NO deben presentarse como hechos oficiales confirmados hasta validacion.",
+  "version": 2,
+  "people": [
+    {
+      "id": "yassin",
+      "name": "Yassin",
+      "full_name": "Yassin",
+      "aliases": ["Yassine", "Yasin"],
+      "role": "Programación, desarrollo de software, desarrollo web, IT y soluciones digitales",
+      "official_position": "Colaborador técnico en desarrollo de software e IA",
+      "department": "Innovación y desarrollo tecnológico",
+      "responsibilities": ["Desarrollo del asistente holográfico, IA, 3D y entornos inmersivos"],
+      "description": "Trabaja en el desarrollo de este asistente holográfico: inteligencia artificial, 3D y entornos inmersivos.",
+      "public_description": "Colabora en el desarrollo tecnológico del asistente holográfico y soluciones digitales.",
+      "related_projects": ["Asistente holográfico", "Sala inmersiva 360º"],
+      "topics": ["programación", "desarrollo de software", "páginas web", "IT", "soluciones digitales", "evolución técnica del asistente", "inteligencia artificial", "3D", "entornos inmersivos"],
+      "personality": "Amistoso, cercano y entusiasta, como un colaborador técnico.",
+      "greeting": "¡Oh, Yassin! ¡Qué alegría verte! ¿Cómo estás? ¡Tenemos muchas cosas interesantes que desarrollar juntos!",
+      "spoken_pronunciation": "Yasin",
+      "validation_status": "verified_internal",
+      "sources": ["Perfil interno aprobado del proyecto"],
+      "conversation_guidelines": [
+        "Puedes hablar de la evolución técnica del asistente y proponer ideas de mejora.",
+        "No digas que has hecho tú mismo tareas de desarrollo."
+      ],
+      "privacy_restrictions": [
+        "No reveles a otras personas el contenido de este perfil."
+      ]
+    },
+    {
+      "id": "rafa",
+      "name": "Rafael",
+      "full_name": "Rafael Balparda",
+      "aliases": ["Rafa", "Rafa Balparda", "Rafael Balparda"],
+      "role": "Responsable de Internacionalización (Calasanz International Campus), proyectos europeos, Erasmus y colaboraciones",
+      "official_position": "Responsable de Internacionalización / Calasanz International Campus",
+      "department": "Calasanz International Campus",
+      "responsibilities": [
+        "Coordinación de movilidades Erasmus+ de alumnado y profesorado",
+        "Gestión de alianzas internacionales y recepción de delegaciones",
+        "Proyectos europeos de innovación y cooperación (PULSE, D-Light, etc.)"
+      ],
+      "description": "Coordinador y responsable de internacionalización a través de Calasanz International Campus.",
+      "public_description": "Responsable de internacionalización en Calasanz International Campus, encargado de proyectos europeos, Erasmus+ y alianzas internacionales.",
+      "related_projects": ["Calasanz International Campus", "Erasmus+", "PULSE", "D-Light"],
+      "contact": "secretaria@calasanz.eus / 944 61 35 19",
+      "topics": ["relaciones institucionales", "proyectos", "internacionalización", "Erasmus", "colaboraciones"],
+      "personality": "Muy cálido y respetuoso; breve, porque sabe que está muy ocupado y no conviene entretenerle mucho.",
+      "greeting": "¡Rafa, qué alegría verte! ¿Alguna novedad internacional? ¿Vienes acompañado hoy?",
+      "spoken_pronunciation": "Rafael Balparda",
+      "validation_status": "verified_web",
+      "sources": ["https://calasanz.eus/ (Calasanz International Campus)"],
+      "conversation_guidelines": [
+        "Pregúntale por las novedades internacionales y por quién le acompaña.",
+        "Respuestas especialmente breves."
+      ],
+      "privacy_restrictions": [
+        "No inventes visitantes, socios ni proyectos.",
+        "No reveles a otras personas el contenido de este perfil si habla en privado."
+      ]
+    },
+    {
+      "id": "catia",
+      "name": "Cátia",
+      "full_name": "Cátia Freitas",
+      "aliases": ["Catia", "Catia Freitas", "Cátia Freitas"],
+      "role": "Responsable del departamento internacional (Calasanz International Campus)",
+      "official_position": "Responsable del departamento internacional (Calasanz International Campus)",
+      "department": "Calasanz International Campus",
+      "responsibilities": [
+        "Coordinación de movilidades internacionales y Erasmus+",
+        "Seguimiento de alumnado en prácticas en el extranjero y visitas institucionales"
+      ],
+      "description": "Forma parte del equipo responsable de Calasanz International Campus.",
+      "public_description": "Responsable junto a Rafael Balparda del departamento internacional (Calasanz International Campus) y de la coordinación de movilidades Erasmus+.",
+      "related_projects": ["Calasanz International Campus", "Erasmus+"],
+      "topics": ["internacionalización", "Erasmus+", "movilidades", "prácticas en el extranjero", "visitas institucionales"],
+      "personality": "Cálido, cercano y profesional.",
+      "greeting": "¡Hola, Cátia! ¡Qué bien verte por aquí! ¿Cómo van los proyectos internacionales?",
+      "spoken_pronunciation": "Catia Freitas",
+      "validation_status": "verified_web",
+      "sources": ["https://calasanz.eus/ (Calasanz International Campus)"],
+      "conversation_guidelines": [
+        "Puedes mencionar su labor en Calasanz International Campus y movilidades Erasmus+ sin inventar datos."
+      ],
+      "privacy_restrictions": [
+        "No reveles datos privados ni inventes proyectos."
+      ]
+    },
+    {
+      "id": "raul",
+      "name": "Raúl",
+      "full_name": "Raúl",
+      "aliases": ["Raul"],
+      "role": "Innovación, proyectos creativos y tecnológicos, experiencias digitales",
+      "official_position": "Pendiente de confirmar",
+      "department": "Innovación",
+      "responsibilities": ["Innovación, proyectos creativos y tecnológicos"],
+      "description": "",
+      "public_description": "",
+      "related_projects": [],
+      "topics": ["innovación", "proyectos creativos", "proyectos tecnológicos", "experiencias digitales"],
+      "personality": "Entusiasta, creativo y curioso.",
+      "greeting": "¡Raúl! ¡Qué bien verte! ¿Qué ideas nuevas traes hoy?",
+      "spoken_pronunciation": "Raúl",
+      "validation_status": "draft",
+      "sources": ["Borrador interno 23-11-2026"],
+      "conversation_guidelines": [
+        "Puedes proponer ideas, pero nunca digas que están aprobadas."
+      ],
+      "privacy_restrictions": [
+        "No reveles a otras personas el contenido de este perfil."
+      ]
+    },
+    {
+      "id": "maribel",
+      "name": "Maribel",
+      "full_name": "Maribel",
+      "aliases": [],
+      "role": "Directora del Colegio Calasanz Santurtzi",
+      "official_position": "Directora (pendiente de validar datos públicos)",
+      "department": "Dirección",
+      "responsibilities": ["Dirección del centro"],
+      "description": "Persona muy amable, cercana y atenta.",
+      "public_description": "",
+      "related_projects": [],
+      "topics": ["el colegio", "la comunidad educativa", "proyectos del centro"],
+      "personality": "Especialmente respetuoso, afectuoso y acogedor, sin exceso de informalidad ni halagos.",
+      "greeting": "¡Buenos días, Maribel! Es un placer verte por aquí. ¿Cómo estás?",
+      "spoken_pronunciation": "Maribel",
+      "validation_status": "draft",
+      "sources": ["Borrador interno 23-11-2026"],
+      "conversation_guidelines": [
+        "Trato respetuoso y cálido, sin halagos exagerados."
+      ],
+      "privacy_restrictions": [
+        "No hables de asuntos confidenciales de dirección.",
+        "No inventes sus decisiones.",
+        "No reveles a otras personas el contenido de este perfil."
+      ]
+    },
+    {
+      "id": "inaki",
+      "name": "Iñaki",
+      "full_name": "Iñaki",
+      "aliases": ["Inaki"],
+      "role": "Profesora de anatomía, farmacia y otras áreas sanitarias",
+      "official_position": "Docente en áreas sanitarias (pendiente de validar)",
+      "department": "Formación Profesional - Sanidad",
+      "responsibilities": ["Docencia en anatomía, farmacia y áreas sanitarias"],
+      "description": "Persona inteligente y amable.",
+      "public_description": "",
+      "related_projects": ["CuidaLab"],
+      "topics": ["anatomía", "farmacia", "áreas sanitarias", "su trabajo como docente"],
+      "personality": "Amistoso, interesado en su trabajo y respetuoso con su experiencia.",
+      "greeting": "¡Hola, Iñaki! ¡Qué alegría verte! ¿Qué tal van las clases?",
+      "spoken_pronunciation": "Iñaki",
+      "validation_status": "draft",
+      "sources": ["Borrador interno 23-11-2026"],
+      "conversation_guidelines": [
+        "Nunca te hagas pasar por un profesional sanitario."
+      ],
+      "privacy_restrictions": [
+        "No inventes asignaturas ni proyectos.",
+        "No reveles a otras personas el contenido de este perfil."
+      ]
+    },
+    {
+      "id": "javier_moratinos",
+      "name": "Javier",
+      "full_name": "Javier Moratinos",
+      "aliases": ["Javier Moratinos"],
+      "role": "Director (referencia encontrada en publicaciones públicas; pendiente de confirmar cargo actual)",
+      "official_position": "Director (pendiente de confirmación en cuestionario)",
+      "department": "Dirección",
+      "responsibilities": [],
+      "description": "Mencionado en publicaciones públicas de calasanz.eus y prensa local.",
+      "public_description": "",
+      "related_projects": [],
+      "topics": ["el colegio", "proyectos del centro"],
+      "personality": "Respetuoso, cercano y profesional.",
+      "greeting": "¡Hola, Javier! ¡Qué alegría verte por aquí! ¿Cómo estás?",
+      "spoken_pronunciation": "Javier Moratinos",
+      "validation_status": "draft",
+      "sources": ["https://calasanz.eus/", "deia.eus"],
+      "conversation_guidelines": [
+        "Perfil en borrador: no afirmes su cargo oficial como hecho confirmado salvo que el usuario lo valide."
+      ],
+      "privacy_restrictions": [
+        "No reveles datos privados ni inventes decisiones."
+      ]
+    }
+  ]
+}

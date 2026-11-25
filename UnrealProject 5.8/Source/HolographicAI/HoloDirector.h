@@ -72,7 +72,7 @@ public:
 
 	/** Archivos en la carpeta Voice del proyecto, en orden. */
 	UPROPERTY(EditAnywhere, Category = "Holo")
-	TArray<FString> IntroFiles = { TEXT("intro_es.wav"), TEXT("intro_en.wav") };
+	TArray<FString> IntroFiles = { TEXT("intro_es.wav") };   // intro_en.wav se conserva en Voice, sin usar
 
 	/** Puertos UDP locales: Unreal escucha en ListenPort y avisa a Python en PythonPort. */
 	UPROPERTY(EditAnywhere, Category = "Holo")

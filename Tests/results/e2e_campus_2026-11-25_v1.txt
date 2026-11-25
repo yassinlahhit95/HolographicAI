@@ -1,0 +1,103 @@
+# campus | modelo qwen3:4b-instruct | 2026-11-25 10:35
+======================================================================
+P: ¿Qué es Calasanz International Campus?
+   [factual | modulos ['05', '11', '10'] | 4.7s]
+R: Es el departamento que coordina la internacionalización de Calasanz: movilidades Erasmus+, alianzas con centros internacionales y proyectos de innovación educativa compartida. Organiza coordinadores, tutores para movilidades y equipos que trabajan en nuevas metodologías. Si quieres saber más, puedo ayudarte a contactar con el equipo.
+P: ¿Qué servicios ofrecéis?
+   [factual | modulos ['05', '08', '10'] | 4.7s]
+R: Ofrecemos movilidades Erasmus+, alianzas internacionales y proyectos europeos como KA2 o CoVE, además de apoyo administrativo para las prácticas y trámites. Tenemos tutores especializados que acompañan a los alumnos durante sus movilidades. Si quieres más detalles, puedo ayudarte a contactar con el equipo.
+======================================================================
+P: ¿Quién se encarga de la internacionalización?
+   [factual | modulos ['05', '10', '13'] | 3.5s]
+R: Lo coordinan Rafael Balparda y Cátia Freitas desde Calasanz International Campus. También gestionan movilidades, alianzas y proyectos internacionales junto a su equipo. Si quieres más detalles, pueden ayudarte en secretaría o por WhatsApp.
+P: ¿Y quiénes son los tutores Erasmus?
+   [factual | modulos ['05', '06'] | 4.6s]
+R: Los tutores Erasmus acompañan al alumnado en todos los tramos de su movilidad, desde antes de salir hasta después de regresar. Están integrados en el equipo de internacionalización junto a Rafael Balparda y Cátia Freitas. Es un apoyo clave para que cada alumno se sienta seguro y preparado.
+======================================================================
+P: ¿Qué relación tenéis con Tknika?
+   [discussion | modulos ['10', '07', '13', '05'] | 5.1s]
+R: En Calasanz trabajamos en estrecha colaboración con Tknika, el centro de innovación aplicada en Formación Profesional del País Vasco. Aplicamos su metodología ETHAZI en clase, donde los alumnos resuelven retos en equipo. También hemos organizado la International Camp Week & Open Days junto a ellos y presentado proyectos como PULSE en foros oficiales de Tknika.
+======================================================================
+P: ¿Qué es EFVET?
+   [factual | modulos ['10', '06', '05'] | 4.2s]
+R: EFVET es una red europea de centros de formación profesional que comparten buenas prácticas y ayudan a influir en la política europea de FP. Calasanz se conecta con ella a través del Calasanz International Campus, aunque el tipo de participación aún no está confirmado.
+P: ¿Sois miembros oficiales?
+   [factual | modulos ['10', '05', '14'] | 3.8s]
+R: No tenemos confirmado si somos miembros oficiales de EFVET, pero sí colaboramos a través del Calasanz International Campus. Te invito a hablar con la secretaría o con Rafael Balparda y Cátia Freitas para más detalles.
+======================================================================
+P: ¿Formáis parte de redes europeas?
+   [factual | modulos ['10', '05', '13'] | 4.6s]
+R: Sí, Calasanz se conecta con redes europeas de formación profesional como EFVET, INNOTECS y YES Forum, a través del Calasanz International Campus. Estas conexiones nos ayudan a compartir buenas prácticas y fomentar la inclusión de jóvenes. El tipo de vínculo aún está pendiente de confirmar.
+P: ¿Y en el País Vasco?
+   [followup | modulos ['10', '05', '07', '06'] | 5.0s]
+R: Sí, colaboramos con Tknika, el centro de innovación en FP del País Vasco, que impulsa metodologías como ETHAZI y proyectos reales en nuestros centros. A través de este vínculo, hemos organizado eventos como la Semana Internacional y presentado iniciativas como PULSE en foros oficiales.
+======================================================================
+P: ¿Qué diferencia hay entre Erasmus y Capacity Building?
+   [discussion | modulos ['13', '06', '05'] | 4.3s]
+R: Erasmus+ se centra en movilizar personas a través de intercambios, mientras que el Capacity Building fortalece los sistemas de formación en países fuera de la UE, sin moverse físicamente. En Calasanz, ofrecemos apoyo para ambos, pero no participamos directamente en proyectos concretos aún.
+P: ¿Participáis en alguno de Capacity Building?
+   [factual | modulos ['06', '13', '05', '15'] | 4.6s]
+R: Actualmente no tenemos confirmado participación en un proyecto específico de Capacity Building. El centro ofrece servicios para gestionar y difundir estos proyectos, pero no participa directamente en uno concreto aún. Gracias por preguntar, es una excelente manera de entender cómo la formación profesional se fortalece internacionalmente.
+======================================================================
+P: ¿Qué es un CoVE?
+   [factual | modulos ['06', '13', '05'] | 3.8s]
+R: Un CoVE es una red de centros de formación profesional, empresas y administraciones que colaboran para hacer que la formación profesional sea de excelencia e innovadora. Calasanz International Campus gestiona este tipo de proyectos, pero no participa actualmente en uno concreto.
+P: ¿Vosotros sois un CoVE?
+   [factual | modulos ['06', '13', '05'] | 4.7s]
+R: No, Calasanz Santurtzi no es un CoVE. Un CoVE es una red de centros de formación profesional, empresas y administraciones que colaboran para hacer que la formación sea de excelencia e innovadora. Nosotros ofrecemos apoyo en proyectos europeos como el CoVE, pero no somos parte de uno actualmente.
+======================================================================
+P: ¿Ofrecéis formación para profesores extranjeros?
+   [factual | modulos ['05', '11'] | 3.7s]
+R: Sí, ofrecemos formación y job shadowing para docentes internacionales. Pueden observar el trabajo diario en nuestras aulas y aprender nuestras metodologías. Para más información, contactan con la secretaría o con Calasanz International Campus.
+======================================================================
+P: ¿Puedo hacer job shadowing en vuestro centro?
+   [factual | modulos ['11', '13'] | 3.8s]
+R: ¡Claro que sí! Calasanz International Campus ofrece job shadowing para docentes internacionales. Para estudiantes, se estudian oportunidades de observación en entornos profesionales. Te recomiendo contactar con la secretaría o con el equipo de internacionalización para más detalles.
+P: ¿Cuántas plazas hay y cuánto dinero dan?
+   [factual | modulos ['05', '11'] | 3.9s]
+R: No tengo información sobre el número de plazas o las cuantías para movilidades o job shadowing. Te recomiendo hablar con la secretaría o con el equipo de Calasanz International Campus para más detalles. ¡Es un placer conocerte!
+======================================================================
+P: Somos una empresa, ¿cómo podemos colaborar?
+   [collaboration | modulos ['10', '11'] | 4.3s]
+R: ¡Qué buena pregunta! En Calasanz colaboramos con empresas mediante prácticas del alumnado, formación práctica y proyectos de innovación. Si queréis explorar algo juntos, podéis contactar con el responsable de internacionalización, Rafael Balparda, o con la secretaría para conversar sobre posibilidades.
+======================================================================
+P: Somos un centro de FP de Marruecos, ¿podríamos trabajar juntos?
+   [factual | modulos ['10', '05', '06'] | 4.9s]
+R: ¡Qué buena pregunta! Sí, podríais trabajar juntos. Calasanz está incluido en el proyecto PULSE con Marruecos, Túnez y Libia, donde compartimos metodologías activas como ETHAZI y experiencias en emprendimiento. Podemos estudiar juntos cualquier propuesta de movilidad o proyecto conjunto sin compromiso previo.
+======================================================================
+P: ¿Cómo ayudáis a los alumnos a mejorar su empleabilidad?
+   [factual | modulos ['13', '05'] | 4.3s]
+R: Ayudamos a los alumnos a mejorar su empleabilidad mediante competencias transversales como trabajo en equipo y adaptabilidad, desarrolladas en el aula y reforzadas por movilidades internacionales. Además, nuestros alumnos obtienen certificados reconocidos como Europass que validan sus habilidades. Para más detalles, puedes contactar a la secretaría.
+======================================================================
+P: ¿Qué competencias desarrollan los alumnos durante una movilidad?
+   [factual | modulos ['13', '05'] | 3.8s]
+R: Durante una movilidad, los alumnos desarrollan competencias como comunicación, trabajo en equipo, adaptabilidad y resolución de problemas, además de fortalecer su interculturalidad. También aprenden a trabajar en entornos distintos y mejoran sus habilidades para el mercado laboral europeo.
+======================================================================
+P: ¿Qué significa internacionalizar el currículo?
+   [factual | modulos ['13', '05', '10'] | 3.9s]
+R: Internacionalizar el currículo significa que lo que se enseña incluye dimensiones europeas y globales, como estándares internacionales, idiomas y proyectos con otros países, sin necesidad de salir de casa. Así, todos los alumnos aprenden a pensar desde una perspectiva internacional, incluso si no viajan.
+P: ¿Me pones un ejemplo práctico?
+   [explanation_or_example | modulos ['05', '13', '06'] | 6.0s]
+R: Por ejemplo, en el proyecto PULSE, los alumnos de Formación Profesional trabajan en retos reales con compañeros de Marruecos, Túnez o Libia, usando metodologías como ETHAZI para desarrollar ideas emprendedoras. Aprender así no solo les da experiencia práctica, sino que también se preparan para trabajar en el mercado europeo. Es una forma de internacionalizar el aprendizaje sin necesidad de viajar.
+======================================================================
+P: ¿Qué diferencia hay entre el SEPIE y Tknika?
+   [discussion | modulos ['10', '05', '07', '13'] | 5.6s]
+R: El SEPIE es la agencia nacional de Erasmus+ en España que gestiona las movilidades y acreditaciones para la formación, mientras que Tknika es un centro de investigación que impulsa innovación en FP, como el modelo ETHAZI. En Calasanz, trabajamos con ambos: SEPIE para movilidades internacionales y Tknika para metodologías activas y proyectos de emprendimiento.
+======================================================================
+P: ¿Qué relación tenéis con Teknika?
+   [discussion | modulos ['10', '07', '13'] | 5.5s]
+R: Tenemos una colaboración institucional con Tknika, el centro de innovación aplicada en Formación Profesional del País Vasco. Allí aplicamos su metodología ETHAZI, que impulsa aprendizajes colaborativos basados en retos reales del mundo laboral. También hemos organizado eventos como la International Camp Week junto a ellos y presentado proyectos como PULSE en foros de Tknika.
+======================================================================
+P: ¿Qué es la CECE?
+   [factual | modulos ['10', '05', '06', '13'] | 3.2s]
+R: La CECE es una red estatal de centros educativos privados en España. Calasanz forma parte de sus redes institucionales, aunque el tipo de relación aún no está confirmado.
+P: ¿Y Bilbao Metropoli 30?
+   [factual | modulos ['10', '08', '09', '07'] | 4.6s]
+R: Bilbao Metropoli 30 es una asociación que reflexiona sobre el futuro del área metropolitana de Bilbao, y en Calasanz colaboramos en esa mirada estratégica, especialmente en educación y economía. Es un momento importante para pensar juntos en cómo crecer y transformar nuestra región.
+P: ¿Y el INJUVE?
+   [factual | modulos ['10', '06', '14'] | 5.1s]
+R: INJUVE es el Instituto de la Juventud de España que gestiona programas complementarios a Erasmus+ para jóvenes. En Calasanz, se usan estos programas como oportunidades educativas fuera del aula, aunque los detalles específicos aún no están confirmados.
+======================================================================
+P: ¿Cuál es la visión de vuestra internacionalización?
+   [factual | modulos ['05', '13', '10'] | 3.5s]
+R: Nuestra visión es formar personas competentes, responsables y abiertas al mundo. En la práctica, integramos la dimensión europea en el currículo y trabajamos con centros internacionales para compartir conocimientos y proyectos.

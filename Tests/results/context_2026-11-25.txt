@@ -1,0 +1,10 @@
+CONTEXT_MARGIN=99.000  entregado 28/30 | top1 25/30   corta 5/6(top1 5)  larga 8/9(top1 7)  respuesta 6/6(top1 4)  cambio 9/9(top1 9)
+   FALLO [corta] ¿Y con quién os fusionasteis? esperado ['02'] recibe ['14', '11']
+   FALLO [larga] Me parece muy bien, ¿la plataforma con la que os comunicáis con las familias cuál es? esperado ['08'] recibe ['14', '15', '11']
+CONTEXT_MARGIN=0.000  entregado 30/30 | top1 24/30   corta 6/6(top1 6)  larga 9/9(top1 8)  respuesta 6/6(top1 6)  cambio 9/9(top1 4)
+CONTEXT_MARGIN=0.500  entregado 29/30 | top1 24/30   corta 6/6(top1 6)  larga 8/9(top1 7)  respuesta 6/6(top1 6)  cambio 9/9(top1 5)
+   FALLO [larga] Me parece muy bien, ¿la plataforma con la que os comunicáis con las familias cuál es? esperado ['08'] recibe ['03', '14', '15']
+CONTEXT_MARGIN=1.000  entregado 29/30 | top1 26/30   corta 6/6(top1 5)  larga 8/9(top1 7)  respuesta 6/6(top1 5)  cambio 9/9(top1 9)
+   FALLO [larga] Me parece muy bien, ¿la plataforma con la que os comunicáis con las familias cuál es? esperado ['08'] recibe ['14', '03', '15']
+CONTEXT_MARGIN=1.500  entregado 29/30 | top1 26/30   corta 6/6(top1 5)  larga 8/9(top1 7)  respuesta 6/6(top1 5)  cambio 9/9(top1 9)
+   FALLO [larga] Me parece muy bien, ¿la plataforma con la que os comunicáis con las familias cuál es? esperado ['08'] recibe ['14', '15', '11']

@@ -117,17 +117,22 @@ def _cosine_sim(c1, c2):
 
 KNOWLEDGE_MODULES = []    # [(filename, text, set_of_tokens, trigram_counter)]
 CONV_EXAMPLES = []        # [(tags_set, trigram_counter, formatted_text)]
+SEM_MODEL = None          # optional CPU SentenceTransformer ("intfloat/multilingual-e5-small")
+SEM_DOC_EMB = None        # normalized embeddings for KNOWLEDGE_MODULES
 MODULE_SYNONYMS = {
     "02_historia_y_centro.md": {"historia", "ano", "anos", "1969", "fundacion", "efqm", "iso", "aenor", "ibaiondo", "origen"},
     "03_oferta_educativa.md": {"oferta", "etapa", "etapas", "infantil", "primaria", "eso", "dbh", "fp", "ciclo", "ciclos", "grado", "sanidad", "sanitario", "sanitarios", "farmacia", "enfermeria", "laboratorio", "radioterapia", "imagen", "administracion", "marketing", "integracion", "bachillerato", "trilingue", "singapur", "chromebook"},
     "04_formacion_lanbide.md": {"lanbide", "empleo", "desempleado", "desempleados", "trabajadores", "certificado", "certificados", "acreditada", "acreditadas", "inscrita", "especialidad", "especialidades", "in company", "tkgune", "curso", "cursos"},
-    "05_internacionalizacion.md": {"internacional", "internacionalizacion", "campus", "erasmus", "europa", "asia", "africa", "china", "beijing", "pekin", "nanchang", "jingdezhen", "kenia", "kenya", "marruecos", "tunez", "libia", "portugal", "italia", "grecia", "polonia", "serbia", "estonia", "francia", "lituania", "eslovenia", "finlandia", "paises bajos", "holanda", "malta", "bulgaria", "rafael", "rafa", "balparda", "barparda", "catia", "freitas", "delegacion", "movilidad", "shadowing", "intercambio", "nairobi", "paul", "fuera", "extranjero", "practicas"},
-    "06_proyectos_internacionales.md": {"proyecto", "proyectos", "erasmus", "pulse", "fake", "real", "for", "vet4ye", "amor", "enneplus", "cesar", "entreasses", "dlight", "d-light", "realidad", "virtual", "rv", "europa", "etwinning", "ka1", "ka2", "ka171", "ka220", "greenovetion", "keys", "europeo", "europeos"},
+    "05_internacionalizacion.md": {"servicio", "servicios", "objetivo", "objetivos", "vision", "coordinador", "coordina", "tutor", "tutores", "equipo", "encarga", "docentes", "extranjeros", "soft", "skills", "empleabilidad", "curriculo", "competencias", "internacional", "internacionalizacion", "campus", "erasmus", "europa", "asia", "africa", "china", "beijing", "pekin", "nanchang", "jingdezhen", "kenia", "kenya", "marruecos", "tunez", "libia", "portugal", "italia", "grecia", "polonia", "serbia", "estonia", "francia", "lituania", "eslovenia", "finlandia", "paises bajos", "holanda", "malta", "bulgaria", "rafael", "rafa", "balparda", "barparda", "catia", "freitas", "delegacion", "movilidad", "shadowing", "intercambio", "nairobi", "paul", "fuera", "extranjero", "practicas"},
+    "06_proyectos_internacionales.md": {"capacity", "building", "cove", "coves", "ka1", "proyecto", "proyectos", "erasmus", "pulse", "fake", "real", "for", "vet4ye", "amor", "enneplus", "cesar", "entreasses", "dlight", "d-light", "realidad", "virtual", "rv", "europa", "etwinning", "ka1", "ka2", "ka171", "ka220", "greenovetion", "keys", "europeo", "europeos"},
     "07_innovacion_y_tecnologia.md": {"innovacion", "tecnologia", "tecnologico", "ethazi", "retos", "steam", "robotica", "cuidalab", "smartlab", "smartlabs", "inmersiva", "360", "ia", "inteligencia", "artificial", "virtual", "aumentada", "simulacion", "holograma", "asistente", "3d", "bioimpresion", "urrats", "sostenibilidad", "inclusion"},
     "08_instalaciones_y_servicios.md": {"instalaciones", "edificio", "aula", "aulas", "comedor", "jantoki", "jantxiki", "madrugadores", "uniforme", "uniformes", "ampa", "alexia", "padlet", "orientacion", "bolsa", "alquiler", "paseo", "donde", "direccion", "ubicacion", "calle"},
     "09_actividades_escolares.md": {"actividad", "actividades", "premio", "premios", "logro", "logros", "bikoteka", "lectura", "mindfulness", "emocional", "puertas", "abiertas", "visita", "visitas"},
-    "10_colaboraciones.md": {"colaborar", "colaboracion", "colaboraciones", "alianza", "socio", "socios", "empresa", "empresas", "universidad", "universidades", "centro", "centros", "convenio", "acuerdo", "practicas"},
+    "10_colaboraciones.md": {"sepie", "sepi", "tknika", "teknika", "tecnika", "aice", "izea", "isea", "aise", "efvet", "efevet", "fvet", "innotecs", "inotecs", "innotec", "yes", "forum", "cece", "zeze", "metropoli", "metropolis", "injuve", "injube", "red", "redes", "miembro", "miembros", "agencia", "asociacion", "marruecos", "colaborar", "colaboracion", "colaboraciones", "alianza", "socio", "socios", "empresa", "empresas", "universidad", "universidades", "centro", "centros", "convenio", "acuerdo", "practicas"},
     "11_preguntas_frecuentes.md": {"colaborar", "empresa", "empresas", "bachillerato", "matricula", "prematricula", "horario", "horarios", "secretaria", "precio", "cuesta"},
+    "13_conocimiento_educativo_general.md": {"capacity", "building", "cove", "excelencia", "curriculo", "internacionalizar", "soft", "skills", "transversales", "empleabilidad", "shadowing", "movilidad", "diferencia", "comparar", "ventajas", "sustituir", "sustituira", "reemplazar", "futuro", "diez", "anos", "unesco", "digcomp", "entrecomp", "greencomp", "aumentada", "simulacion", "simulaciones", "importante", "relacion", "mayores", "profesor", "profesores"},
+    "16_equipo_del_centro.md": {"equipo", "maribel", "directora", "ejecutiva", "direccion", "rafa", "rafael", "balparda", "raul", "setien", "jesus", "tic", "informatica", "coordinador", "responsable", "persona", "personas", "quien", "quienes"},
+    "14_identidad_y_capacidades_del_asistente.md": {"asistente", "holograma", "eres", "quien", "camara", "privacidad", "grabas", "recuerdas", "memoria", "microfono", "whisper", "qwen", "edge", "piper", "unreal", "creador", "creo", "capacidades", "limites"},
 }
 
 
@@ -184,6 +189,26 @@ def retrieve_examples(query, max_examples=2, max_chars=520):
     return "\n".join(out)
 
 
+def _split_md_chunks(fname, text):
+    """Divide un modulo .md en fragmentos coherentes por seccion '## ' con metadatos."""
+    lines = text.splitlines()
+    title = lines[0].lstrip("# ").strip() if lines and lines[0].startswith("#") else fname
+    chunks, cur_head, cur_lines = [], title, []
+    for ln in lines:
+        if ln.startswith("## "):
+            body = "\n".join(cur_lines).strip()
+            if body and len(body) > 40:
+                chunks.append((fname, cur_head, "[Tema: %s | Fuente: %s]\n%s" % (cur_head, fname, body)))
+            cur_head = ln[3:].strip()
+            cur_lines = [ln]
+        else:
+            cur_lines.append(ln)
+    body = "\n".join(cur_lines).strip()
+    if body:
+        chunks.append((fname, cur_head, "[Tema: %s | Fuente: %s]\n%s" % (cur_head, fname, body)))
+    return chunks or [(fname, title, text)]
+
+
 def load_knowledge():
     from collections import Counter
     KNOWLEDGE_MODULES.clear()
@@ -200,10 +225,42 @@ def load_knowledge():
         if f.startswith(("01_", "12_")):
             core_parts.append(text)
         else:
-            kws = set(_norm_kw(text)) | MODULE_SYNONYMS.get(f, set())
-            KNOWLEDGE_MODULES.append((f, text, kws, Counter(_char_trigrams(text))))
+            for fname, head, ctext in _split_md_chunks(f, text):
+                kws = set(_norm_kw(ctext)) | MODULE_SYNONYMS.get(fname, set())
+                KNOWLEDGE_MODULES.append((fname, ctext, kws, Counter(_char_trigrams(ctext))))
     load_conv_examples()
+    _init_semantic_retriever()
     return "\n\n".join(core_parts), total_chars
+
+
+def _init_semantic_retriever():
+    global SEM_MODEL, SEM_DOC_EMB
+    if not KNOWLEDGE_MODULES:
+        return
+    # Modo offline SOLO mientras se carga E5 (local_files_only no basta: transformers 5 consulta el Hub
+    # para el tokenizador). Despues se restaura tal cual estaba, sin afectar a Whisper ni al resto.
+    env_keys = ("HF_HUB_OFFLINE", "TRANSFORMERS_OFFLINE")
+    prev_env = {k: os.environ.get(k) for k in env_keys}
+    hf_constants, prev_offline = None, None
+    try:
+        import huggingface_hub.constants as hf_constants   # importar ANTES de tocar el entorno
+        prev_offline = hf_constants.HF_HUB_OFFLINE
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        hf_constants.HF_HUB_OFFLINE = True
+        from sentence_transformers import SentenceTransformer
+        SEM_MODEL = SentenceTransformer("intfloat/multilingual-e5-small", device="cpu", local_files_only=True)
+        SEM_DOC_EMB = SEM_MODEL.encode(["passage: " + m[1] for m in KNOWLEDGE_MODULES], normalize_embeddings=True)
+    except Exception as e:
+        SEM_MODEL, SEM_DOC_EMB = None, None
+        log("  Buscador semantico E5 no disponible (%s): uso el buscador por palabras" % e)
+    finally:
+        for k, v in prev_env.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+        if hf_constants is not None and prev_offline is not None:
+            hf_constants.HF_HUB_OFFLINE = prev_offline
 
 
 CONCEPT_LINKS = {
@@ -234,6 +291,10 @@ def detect_intent(text):
         return "collaboration", "Strategy: explore shared interests constructively, connect relevant Calasanz projects, and guide to Rafael Balparda/Cátia Freitas or secretaría without promising approval or funding.", True
     if re.search(r"\b(?:no s[eé] si|me da respeto|no creo|demasiada|fama de ser menos|no sirven)\b", t):
         return "criticism_or_doubt", "Strategy: empathetic, constructive, factual response without sounding defensive.", True
+    if re.search(r"\b(?:c[oó]mo ser[ií]a|c[oó]mo utilizar[ií]as|c[oó]mo aplicar[ií]as|c[oó]mo se podr[ií]a|podr[ií]amos crear|qu[eé] tecnolog[ií]a utilizar[ií]as|aula del futuro)\b", t):
+        return "hypothetical", "Strategy: creative, realistic educational brainstorming. Propose concrete ideas clearly marked as possibilities or proposals, NOT as already implemented Calasanz activities.", True
+    if re.search(r"\b(?:diferencias?|compar\w*|ventajas|sustituir|sustituir[aá]|reemplazar\w*|por qu[eé] es importante|qu[eé] relaci[oó]n|qu[eé] oportunidades|c[oó]mo imagin[aá]is|dentro de \d+ a[ñn]os|crees que|opinas de|futuro de la educaci[oó]n)\b", t):
+        return "discussion", "Strategy: thoughtful educational discussion. Reason clearly, distinguish general educational concepts from Calasanz's verified activities, and avoid listing projects mechanically.", True
     if re.search(r"\b(?:ejemplo|por ejemplo|c[oó]mo funciona|expl[ií]came|en qu[eé] consiste)\b", t):
         return "explanation_or_example", "Strategy: clear explanation with a concrete practical example in plain spoken Spanish.", True
     if len(words) <= 6 and re.search(r"\b(?:y en|y eso|y ese|y esa|cu[eé]ntame m[aá]s|otros proyectos|qu[eé] m[aá]s)\b", t):
@@ -241,8 +302,43 @@ def detect_intent(text):
     return "factual", "Strategy: direct, natural spoken answer connecting relevant facts concisely.", True
 
 
-def retrieve_knowledge(query, history=None, max_modules=3, max_chars=4500):
-    """Recuperacion hibrida (lexica + trigramas + enlaces conceptuales) sobre modulos relevantes."""
+ENTITIES = {
+    "santurtzi", "beijing", "pekin", "nanchang", "jingdezhen", "kenia", "kenya", "nairobi",
+    "marruecos", "tunez", "libia", "rafael", "balparda", "catia", "freitas", "cuidalab",
+    "smartlab", "smartlabs", "ethazi", "lanbide", "tkgune", "urrats", "dlight", "pulse",
+    "fake", "vet4ye", "amor", "enneplus", "cesar", "entreasses", "greenovetion", "keys",
+    "etwinning", "erasmus", "bikoteka", "alexia", "padlet", "jantoki", "jantxiki", "uniforme",
+    "madrugadores", "unreal", "whisper", "piper", "edge", "qwen", "yunet", "3d", "bioimpresion",
+    "efqm", "iso", "aenor", "1969", "2015", "ibaiondo", "unesco", "digcomp", "entrecomp", "greencomp",
+    "maribel", "setien", "jesus", "raul",
+    "sepie", "tknika", "aice", "izea", "efvet", "innotecs", "cece", "metropoli", "injuve", "cove", "capacity",
+    "calasanz", "ar", "electricidad", "construccion", "radiologia", "logs", "ram",
+}
+
+
+SECOND_CHUNK_MARGIN = 0.02   # E5: diferencia maxima con el mejor fragmento del documento para incluir un 2.º
+FALLBACK_SECOND_RATIO = 0.95 # buscador por palabras: el 2.º fragmento debe tener >= 95 % de la puntuacion del mejor
+
+CONTEXT_MARGIN = 1.0         # E5: penalizacion (en desviaciones tipicas) de la busqueda con contexto
+                             # frente a la de la pregunta sola; ajustado con Tests/retrieval/run_context.py
+CONTEXT_ANSWER_CHARS = 400   # cuanto de la ultima respuesta del asistente entra en la busqueda con contexto
+
+
+def _last_exchange(history):
+    """Ultimo intercambio (pregunta del visitante + respuesta del asistente) como texto limpio."""
+    q, a = "", ""
+    for m in reversed(history or []):
+        c = m.get("content", "")
+        if m.get("role") == "assistant" and not a and not q:
+            a = c.strip()[:CONTEXT_ANSWER_CHARS]
+        elif m.get("role") == "user":
+            q = c.rsplit("\n", 1)[-1].strip()   # sin la nota '[Answer in ...]' del principio
+            break
+    return (q + " " + a).strip()
+
+
+def retrieve_knowledge(query, history=None, max_modules=4, max_chars=4200):
+    """Recuperacion semantica E5 por fragmentos + entidades + deduplicacion por documento (fallback hibrido)."""
     from collections import Counter
     if not KNOWLEDGE_MODULES:
         return ""
@@ -251,28 +347,76 @@ def retrieve_knowledge(query, history=None, max_modules=3, max_chars=4500):
         c = re.sub(r"^\[Answer in[^\]]*\]\s*(?:\([^\)]*\)\s*)?", "", m.get("content", ""))
         ctx_parts.append(c)
     q_tokens = set(_norm_kw(query))
-    q_tri = Counter(_char_trigrams(query))
     ctx_tokens = set(_norm_kw(" ".join(ctx_parts))) - q_tokens
+    q_emb = None
+    if SEM_MODEL is not None and SEM_DOC_EMB is not None:
+        # Dos busquedas: la pregunta sola y la pregunta junto al ultimo intercambio. Cada fragmento se
+        # queda con la mejor de las dos (la de contexto, un poco penalizada). Asi una pregunta que depende
+        # de lo anterior ("¿y con quien os fusionasteis?", "el segundo que has dicho...") encuentra su
+        # tema, y una pregunta nueva e independiente sigue mandando con su propia busqueda.
+        prev = _last_exchange(history)
+        texts = ["query: " + query] + (["query: " + prev + " " + query] if prev else [])
+        try:
+            embs = SEM_MODEL.encode(texts, normalize_embeddings=True)
+            q_emb = embs[0]
+        except Exception:
+            q_emb = None
     scored = []
-    for f, text, kws, tri in KNOWLEDGE_MODULES:
-        syns = MODULE_SYNONYMS.get(f, set())
-        links = CONCEPT_LINKS.get(f, set())
-        sem = 25.0 * _cosine_sim(q_tri, tri)
-        score = (50 * len(q_tokens & syns)
-                 + 12 * len(q_tokens & links)
-                 + 3 * len(q_tokens & kws)
-                 + 3 * len(ctx_tokens & syns)
-                 + len(ctx_tokens & kws)
-                 + sem)
-        if score > 1.5:
+    if q_emb is not None:
+        q_ent = q_tokens & ENTITIES
+        sims = q_emb @ SEM_DOC_EMB.T
+        if len(embs) > 1:
+            # Las similitudes de E5 no son comparables entre textos de distinta longitud (la busqueda con
+            # contexto siempre puntua mas alto). Se comparan en "puntuacion z" (cuanto destaca cada
+            # fragmento dentro de su propia busqueda) y se devuelve a la escala de la pregunta sola.
+            import numpy as np
+            sims_c = embs[1] @ SEM_DOC_EMB.T
+            mu, sd = sims.mean(), sims.std() + 1e-6
+            z = np.maximum((sims - mu) / sd, (sims_c - sims_c.mean()) / (sims_c.std() + 1e-6) - CONTEXT_MARGIN)
+            sims = mu + sd * z
+        for idx, (f, text, kws, _) in enumerate(KNOWLEDGE_MODULES):
+            syns = MODULE_SYNONYMS.get(f, set())
+            ent_overlap = len(q_ent & kws)
+            syn_overlap = len(q_tokens & syns)
+            ctx_overlap = len(ctx_tokens & syns)
+            score = float(sims[idx]) + 0.04 * ent_overlap + 0.015 * syn_overlap + 0.005 * ctx_overlap
             scored.append((score, f, text))
+    else:
+        # Fallback hibrido (lexico + trigramas + enlaces conceptuales) si E5 no esta disponible
+        q_tri = Counter(_char_trigrams(query))
+        for f, text, kws, tri in KNOWLEDGE_MODULES:
+            syns = MODULE_SYNONYMS.get(f, set())
+            links = CONCEPT_LINKS.get(f, set())
+            sem = 25.0 * _cosine_sim(q_tri, tri)
+            score = (50 * len(q_tokens & syns)
+                     + 12 * len(q_tokens & links)
+                     + 3 * len(q_tokens & set(_norm_kw(text)))   # palabras reales del fragmento (sin los
+                                                                 # sinonimos del modulo, que son iguales en
+                                                                 # todas sus secciones)
+                     + 3 * len(ctx_tokens & syns)
+                     + len(ctx_tokens & kws)
+                     + sem)
+            if score > 1.5:
+                scored.append((score, f, text))
     scored.sort(key=lambda x: (-x[0], x[1]))
-    picked, used = [], 0
-    for _, f, text in scored[:max_modules]:
+    # Se admite un 2.º fragmento del mismo documento si puntua casi igual que el mejor de ese documento
+    # (p. ej. "¿Necesitas internet?" -> "Limites" + "Arquitectura" del modulo 14).
+    picked, best_of, n_of, used = [], {}, {}, 0
+    for score, f, text in scored:
+        n = n_of.get(f, 0)
+        if n:
+            best = best_of[f]
+            close = (score >= best - SECOND_CHUNK_MARGIN) if q_emb is not None else (score >= best * FALLBACK_SECOND_RATIO)
+            if n >= 2 or not close:
+                continue
         if used + len(text) > max_chars and picked:
-            break
+            continue          # no cabe: se prueba con el siguiente (puede ser mas corto)
+        best_of.setdefault(f, score)
+        n_of[f] = n + 1
         picked.append(text)
         used += len(text)
+        if len(picked) >= max_modules + 1 or len(best_of) >= max_modules:
+            break
     if not picked:
         for f, text, _, _ in KNOWLEDGE_MODULES:
             if f.startswith("03_"):
@@ -408,7 +552,7 @@ def record_utterance(sd):
 
 
 # ------------------------------------------------------------------ voz -> texto
-WHISPER_HINT = "Colegio Calasanz Santurtzi. Holograma, sala inmersiva, FP, ESO."   # ayuda con los nombres
+WHISPER_HINT = "Colegio Calasanz Santurtzi. Holograma, sala inmersiva, FP, ESO. Erasmus, Tknika, SEPIE, EFVET, CECE, INJUVE."   # ayuda con los nombres
 LANG_SWITCH_P = 0.85      # seguridad minima de Whisper para cambiar de idioma a mitad de conversacion
                           # (con frases cortas "Hola, soy Javier" Whisper a veces dice "ingles 50 %")
 
@@ -456,9 +600,30 @@ def ollama(path, payload=None, timeout=120):
         return json.loads(r.read().decode("utf-8"))
 
 
+_EMAIL_RE = re.compile(r"(?<![\w.])([A-Za-z0-9._%+-]+)@((?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,})\b")
+# Dominio en minusculas (o con mayuscula inicial) y extension conocida, con o sin https:// / www.;
+# la ruta, .html/.php, ?parametros y #anclas se descartan. El punto final de la frase se conserva.
+_URL_RE = re.compile(
+    r"(?<![\w@.])(?:[Hh][Tt][Tt][Pp][Ss]?://)?(?:www\.)?"
+    r"((?:[A-Za-z0-9][a-z0-9-]*\.)+(?:eus|com|es|org|net|eu|edu|info|cat|gal))"
+    r"(?:[/?#]\S*?)?(?=[.,;:!?)\]»\"']*(?:\s|$))")
+
+
 def clean_for_speech(text):
     text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
     text = re.sub(r"<think>.*$", "", text, flags=re.S)
+    # Normalizar URLs y correos para que nunca se lean letra a letra en TTS
+    # (correos primero; de las webs solo se dice el dominio: sin https, www, rutas, .html/.php ni ?parametros)
+    text = _EMAIL_RE.sub(lambda m: "%s arroba %s" % (m.group(1).replace(".", " punto "),
+                                                     m.group(2).lower().replace(".", " punto ")), text)
+    text = _URL_RE.sub(lambda m: m.group(1).lower().replace(".", " punto "), text)
+    # Correcciones gramaticales deterministicas y seguras (errores repetidos del modelo 4B)
+    text = re.sub(r"\bel ESO\b", "la ESO", text)
+    text = re.sub(r"\bun herramienta\b", "una herramienta", text, flags=re.I)
+    # "y" -> "e" ante palabras de la lista (todas empiezan por "i" + consonante, sonido /i/).
+    # Excepcion (RAE): "y" interrogativa/exclamativa al inicio ("¿Y investigación?") no cambia.
+    text = re.sub(r"(?<![¿¡\w])([yY]) (inteligencia|innovación|inclusión|idiomas|instituciones|integración|información|inmersiva|internacional|investigación)\b",
+                  lambda m: ("E " if m.group(1) == "Y" else "e ") + m.group(2), text, flags=re.I)
     text = re.sub(r"[*_#`>\[\]]", "", text)
     text = re.sub(r"(^|\s)-\s+", r"\1", text)          # vinetas de lista
     text = re.sub(r"[\U0001F300-\U0001FAFF☀-➿]", "", text)

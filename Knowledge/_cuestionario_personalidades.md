@@ -5,7 +5,7 @@
 Por favor, completa o corrige los siguientes datos para validar los perfiles en `people_profiles.json` sin inventar cargos ni responsabilidades:
 
 ## 1. Perfiles ya detectados (pendientes de confirmar)
-1. **Dirección actual del centro** (en borrador interno aparece *Maribel* y en publicaciones web *Javier Moratinos*):
+1. **Dirección actual del centro** (RESUELTO 25-11-2026: Maribel, Directora Ejecutiva; *Javier Moratinos* no existe y se ha eliminado su perfil):
    - Nombre completo y cargo oficial actual →
    - ¿Qué descripción pública y proyectos quiere destacar? →
    - ¿Autoriza que el holograma mencione su nombre públicamente? (sí / no) →

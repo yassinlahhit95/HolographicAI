@@ -1,0 +1,24 @@
+[e5] 105 preguntas: entregado 96/105 = 91.4% | top1 80.0% | 3198 car/pregunta
+   FALLO: ¿Con qué centro os fusionasteis en 2020? esperado ['02'] recibe ['11', '10']
+   FALLO: ¿Tenéis algún certificado de calidad? esperado ['02', '09'] recibe ['04', '15', '11']
+   FALLO: ¿Tenéis integración social? esperado ['03'] recibe ['11', '04', '10', '05']
+   FALLO: ¿Hay emergencias sanitarias? esperado ['03'] recibe ['05', '07', '08', '14']
+   FALLO: ¿Qué es D-Light? esperado ['06'] recibe ['14']
+   FALLO: ¿Algún proyecto de inclusión para alumnos con necesidades especiales? esperado ['06'] recibe ['07']
+   FALLO: ¿Hacéis algo de economía circular? esperado ['06'] recibe ['07', '15', '11']
+   FALLO: ¿Hacéis excursiones? esperado ['09'] recibe ['05', '10', '11']
+   FALLO: ¿Hay una plataforma para gestionar Erasmus? esperado ['15'] recibe ['05', '06']
+[e5] variantes internet: entregado 10/10 = 100.0% | top1 100.0% | 3658 car/pregunta
+[fallback] 105 preguntas: entregado 96/105 = 91.4% | top1 79.0% | 3116 car/pregunta
+   FALLO: ¿Desde cuándo hay Formación Profesional aquí? esperado ['02'] recibe ['11', '09', '04']
+   FALLO: ¿Qué es el proyecto ONE TO ONE? esperado ['03'] recibe ['06', '10']
+   FALLO: ¿Con qué países europeos colaboráis? esperado ['05'] recibe ['06']
+   FALLO: ¿Qué es D-Light? esperado ['06'] recibe ['15']
+   FALLO: ¿Qué metodologías activas usáis? esperado ['03', '07'] recibe ['13', '06']
+   FALLO: ¿Qué plataforma usáis con las familias? esperado ['08'] recibe ['11', '10', '15', '14']
+   FALLO: ¿Hacéis excursiones? esperado ['09'] recibe ['10', '08', '14', '15']
+   FALLO: ¿Con qué programa te han hecho en 3D? esperado ['14'] recibe ['07']
+   FALLO: ¿Hay una plataforma para gestionar Erasmus? esperado ['15'] recibe ['05', '06']
+[fallback] variantes internet: entregado 8/10 = 80.0% | top1 70.0% | 2813 car/pregunta
+   FALLO: ¿Necesitas red para entenderme? esperado ['11', '14'] recibe ['07']
+   FALLO: Si desenchufamos el router, ¿te quedas mudo? esperado ['11', '14'] recibe ['15']

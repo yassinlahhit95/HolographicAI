@@ -1,0 +1,50 @@
+# contexto | modelo qwen3:4b-instruct | 2026-11-25 11:16
+======================================================================
+P: ¿Colaboráis con algún país de África?
+   [factual | modulos ['05', '06', '13', '07'] | 1.7s]
+R: Sí, colaboramos con Kenia y países del norte de África. En Kenia, hay una movilidad Erasmus+ en Ciencias de la Salud con St. Paul's University, y en Marruecos, Túnez y Libia participamos en el proyecto PULSE para fomentar el emprendimiento en Formación Profesional.
+P: Me ha llamado mucho la atención lo de la universidad que has mencionado, ¿en qué área concreta trabajáis con ella?
+   [factual | modulos ['05', '10', '06', '04'] | 1.5s]
+R: Trabajamos con St. Paul's University en Nairobi, Kenia, en el ámbito de Ciencias de la Salud, dentro del programa Erasmus+ KA171 coordinado por el centro Aloya. Compartimos buenas prácticas y exploramos vías de colaboración para mejorar la salud y los servicios médicos.
+======================================================================
+P: ¿Qué proyectos internacionales tenéis?
+   [factual | modulos ['06', '10', '05', '15'] | 1.6s]
+R: Tenemos varios proyectos internacionales, como FOR para detectar noticias falsas, VET4YE para simulaciones laborales, A.M.O.R. para accesibilidad y C.E.S.A.R. para la sostenibilidad. También colaboramos con centros en Marruecos, Túnez y Kenia, y tenemos participación en programas como eTwinning y PULSE.
+P: Háblame un poco más del último que has nombrado, por favor, me interesa bastante
+   [factual | modulos ['06', '05', '04', '16'] | 1.9s]
+R: El proyecto C.E.S.A.R. enseña a los alumnos cómo integrar la sostenibilidad y el cambio climático en sus actividades de formación profesional, con herramientas prácticas y materiales didácticos. También colaboramos con centros en Marruecos, Túnez y Kenia, y trabajamos en redes europeas como eTwinning y PULSE. ¡Qué interesante cómo la educación conecta el futuro con el mundo real!
+======================================================================
+P: ¿Qué espacios tecnológicos tenéis?
+   [factual | modulos ['07', '08', '14', '15'] | 1.7s]
+R: Tenemos la Sala Inmersiva Digital 360º, donde se proyectan escenarios educativos en 3D, el CuidaLab con simulaciones de atención a personas mayores usando realidad virtual y robótica, y los SmartLabs para resolver retos tecnológicos. También tenemos modelos 3D de bioimpresión y una cabeza holográfica que interactúa en tiempo real.
+P: El segundo que has dicho, ¿qué tipo de prácticas hacen allí los alumnos exactamente?
+   [factual | modulos ['07', '13', '05', '04'] | 1.7s]
+R: Los alumnos practican en entornos reales de atención a personas mayores usando simulaciones con realidad virtual y robótica, como en el CuidaLab. También trabajan en retos tecnológicos globales desde SmartLabs, conectados a redes internacionales. Es un aprendizaje práctico y real que prepara para el mundo laboral.
+======================================================================
+P: ¿Tenéis algún reconocimiento de calidad?
+   [factual | modulos ['09', '06', '15', '16'] | 1.3s]
+R: Sí, tenemos el reconocimiento como «Escuela Sostenible» desde 2009 y la certificación AENOR ISO 9001 desde 2011. También hemos recibido la Q de Plata del modelo EFQM en 2005.
+P: ¿Qué significa exactamente la primera distinción que has comentado?
+   [factual | modulos ['09', '02', '14', '16'] | 1.4s]
+R: La primera distinción es el reconocimiento Q de Plata del modelo EFQM en 2005, que certifica nuestro compromiso con la calidad educativa. Es un reconocimiento que refleja años de trabajo en procesos y mejora continua.
+======================================================================
+P: ¿Habéis estado en China?
+   [factual | modulos ['05', '14', '15', '16'] | 1.5s]
+R: Sí, hemos participado en una misión educativa en Beijing, Nanchang y Jingdezhen, donde compartimos experiencias sobre cualificaciones de Formación Profesional y exploramos cooperación en educación digital. Fue una visita institucional con centros europeos y colaboradores como UNISER y FPEmpresa.
+P: ¿Qué fuisteis a hacer exactamente durante aquel viaje tan largo con la delegación?
+   [factual | modulos ['05', '10', '09', '16'] | 1.5s]
+R: Fue una misión institucional en China donde compartimos conocimientos sobre formación profesional y cualificaciones transfronterizas, participando en talleres en Beijing y realizando encuentros en Nanchang y Jingdezhen sobre educación digital y patrimonio cultural. ¡Es una experiencia que refuerza nuestra conexión internacional!
+======================================================================
+P: ¿Tenéis formación para desempleados?
+   [factual | modulos ['04', '03', '08', '06'] | 1.1s]
+R: Sí, ofrecemos formación para personas desempleadas como parte de nuestro programa de Formación para el Empleo. Puedes consultar las oportunidades abiertas en formacionparaelempleo punto net.
+P: Mi hermano está buscando trabajo, ¿esos certificados que comentas tienen validez oficial para él?
+   [factual | modulos ['04', '06', '15', '14'] | 1.4s]
+R: Los certificados profesionales que ofrecemos, como apoyo administrativo o educación en centros con menores de riesgo, tienen validez oficial y están reconocidos en el ámbito laboral. Puedes consultarlos en calasanz punto eus o hablar con la secretaría para más detalles.
+======================================================================
+P: ¿Qué es PULSE?
+   [factual | modulos ['06', '05', '07', '10'] | 2.1s]
+R: PULSE es un proyecto Erasmus+ que conecta centros de formación en España, Francia, Grecia con Marruecos, Túnez y Libia para fomentar el emprendimiento en Formación Profesional mediante retos reales y espacios de experimentación llamados SmartLabs. En Calasanz, usamos metodologías activas como ETHAZI para diseñar currículos y evaluar competencias. El proyecto también ha sido presentado en foros de Tknika y en Túnez.
+P: ¿Cuándo se fundó el colegio?
+   [factual | modulos ['02', '05', '06', '13'] | 1.7s]
+R: El colegio comenzó sus actividades educativas en 1969 como centro de preescolar y EGB. Desde entonces, ha evolucionado, incorporando formación profesional y modernizando su estructura para adaptarse a las necesidades del futuro. Hoy forma parte del Grupo Calasanz Santurtzi junto con otros centros.

@@ -1,0 +1,52 @@
+# internet | modelo qwen3:4b-instruct | 2026-11-25 11:16
+======================================================================
+P: ¿Necesitas internet para funcionar?
+   [factual | modulos ['14', '11', '07'] | 1.2s]
+R: No necesito internet para entender y responder. Entiendo lo que dices en local y respondo sin conexión. Solo mi voz principal usa internet, y si no hay señal, hablo con una voz local llamada Piper.
+======================================================================
+P: ¿Funcionas sin conexión?
+   [factual | modulos ['14', '15', '05', '07'] | 1.0s]
+R: Sí, puedo seguir hablando contigo incluso sin conexión. Entiendo lo que dices y respondo con mi conocimiento local. Si no hay internet, uso una voz local llamada Piper para continuar la conversación.
+======================================================================
+P: ¿Qué pasa si se va el wifi?
+   [factual | modulos ['14', '05', '15', '13'] | 1.3s]
+R: Si se va el wifi, siguen hablando sin problema porque uso una voz local llamada Piper que me pone al día. Entiendo y respondo como siempre, aunque la voz principal no está disponible. Todo lo que necesitas saber, ya lo tengo cargado en este ordenador.
+======================================================================
+P: ¿Puedes buscar en internet qué tiempo hará mañana?
+   [factual | modulos ['14', '11', '07'] | 1.1s]
+R: No, no navego por internet ni consulto el tiempo o cualquier dato en tiempo real. Mi conocimiento está limitado a lo que tiene el centro, y para eso remito a calasanz punto eus o a la secretaría.
+======================================================================
+P: Si desenchufamos el router, ¿te quedas mudo?
+   [factual | modulos ['14', '07', '06', '05'] | 1.1s]
+R: No, no me quedo mudo. Aunque no haya conexión, sigo entendiendo y respondiendo a tus preguntas. Solo cambia un poco la voz por una local llamada Piper, pero seguimos hablando sin problemas.
+======================================================================
+P: ¿Consultas Google para responderme?
+   [factual | modulos ['14', '15', '11'] | 1.1s]
+R: No, no navego por internet ni consulto Google. Solo uso el conocimiento del centro que tengo cargado. Si necesitas algo actualizado, puedes consultar en calasanz punto eus o hablar con la secretaría.
+======================================================================
+P: ¿Cómo me entiendes cuando hablo?
+   [factual | modulos ['14', '03', '04', '16'] | 1.3s]
+R: Cuando hablas, yo entiendo tu voz gracias a un sistema local llamado Whisper que funciona sin internet. Esto me permite escuchar y comprender lo que dices, incluso si no hay conexión. Luego, respondo con base en el conocimiento del centro que tengo cargado en este ordenador.
+P: ¿Y para eso hace falta estar conectado?
+   [factual | modulos ['14', '16', '07', '15'] | 1.5s]
+R: No necesitas conexión para que yo entienda lo que dices o responder contigo. Todo lo que hago aquí —escuchar, pensar y contestar— funciona sin internet, gracias a tecnologías locales como Whisper y Qwen3. Así que aunque no tengas señal, seguimos hablando con normalidad.
+P: ¿Y tu voz?
+   [factual | modulos ['14', '07', '16'] | 1.4s]
+R: Mi voz principal funciona con internet, pero también tengo una voz local llamada Piper que se activa si no hay conexión. Así que aunque no tengas señal, sigues escuchándome con normalidad. La voz que usas ahora es la que está en el equipo local del centro.
+======================================================================
+P: ¿Qué tecnología usas para hablar?
+   [factual | modulos ['14', '07', '13'] | 1.3s]
+R: Usa una voz en español de España que funciona con conexión a internet (Edge Neural TTS) o, si no hay conexión, cambia automáticamente a una voz local llamada Piper. Así, siempre puedo seguir hablándote, aunque no tengas internet.
+P: Si mañana se cae la conexión del colegio durante una visita importante, ¿podrías seguir hablando con la gente?
+   [factual | modulos ['09', '14', '10'] | 1.4s]
+R: Sí, aunque se pierda la conexión, seguiré hablándote porque uso una voz local llamada Piper como respaldo. Así, la conversación no se interrumpe y puedes seguir disfrutando de nuestra charla.
+P: ¿Se notaría mucho la diferencia?
+   [discussion | modulos ['13', '14', '04'] | 1.8s]
+R: No, no sería muy evidente porque aunque uso una voz diferente cuando no hay conexión, la conversación sigue natural y clara. El alumnado aprende mejor con metodologías activas como los retos del entorno laboral, y aquí el enfoque está en que lo que aprendes sea útil, real y aplicable — sin depender de internet para hablar contigo.
+======================================================================
+P: ¿Quién eres?
+   [factual | modulos ['14', '16', '09', '04'] | 1.7s]
+R: Soy el asistente digital holográfico de Calasanz Santurtzi, diseñado para dar la bienvenida a visitantes y ayudarles a descubrir nuestras actividades, estudios e innovación educativa en la sala inmersiva. No soy una persona humana, pero estoy aquí para conversar contigo de forma cercana y útil. ¿Te gustaría saber más sobre nuestros programas o proyectos?
+P: Todo eso que me cuentas, ¿lo vas buscando en alguna web mientras hablamos?
+   [factual | modulos ['14', '15', '07', '03'] | 1.6s]
+R: No, no busco información en internet mientras hablamos. Mis datos provienen directamente del sistema interno del centro y están actualizados con la información oficial de Calasanz Santurtzi. Todo lo que te digo está basado en lo que el centro ha publicado o confirmado.

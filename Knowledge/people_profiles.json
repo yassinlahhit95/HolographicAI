@@ -32,7 +32,7 @@
       "id": "rafa",
       "name": "Rafael",
       "full_name": "Rafael Balparda",
-      "aliases": ["Rafa", "Rafa Balparda", "Rafael Balparda"],
+      "aliases": ["Rafa", "Rafa Balparda", "Rafael Balparda", "Rafael"],
       "role": "Responsable de Internacionalización (Calasanz International Campus), proyectos europeos, Erasmus y colaboraciones",
       "official_position": "Responsable de Internacionalización / Calasanz International Campus",
       "department": "Calasanz International Campus",
@@ -41,7 +41,7 @@
         "Gestión de alianzas internacionales y recepción de delegaciones",
         "Proyectos europeos de innovación y cooperación (PULSE, D-Light, etc.)"
       ],
-      "description": "Coordinador y responsable de internacionalización a través de Calasanz International Campus.",
+      "description": "Responsable de internacionalización en Calasanz International Campus. Persona cercana, dinámica y siempre dispuesta a ayudar; destaca por su entusiasmo, su compromiso y su interés por ofrecer nuevas oportunidades internacionales al alumnado.",
       "public_description": "Responsable de internacionalización en Calasanz International Campus, encargado de proyectos europeos, Erasmus+ y alianzas internacionales.",
       "related_projects": ["Calasanz International Campus", "Erasmus+", "PULSE", "D-Light"],
       "contact": "secretaria@calasanz.eus / 944 61 35 19",
@@ -50,7 +50,7 @@
       "greeting": "¡Rafa, qué alegría verte! ¿Alguna novedad internacional? ¿Vienes acompañado hoy?",
       "spoken_pronunciation": "Rafael Balparda",
       "validation_status": "verified_web",
-      "sources": ["https://calasanz.eus/ (Calasanz International Campus)"],
+      "sources": ["https://calasanz.eus/ (Calasanz International Campus)", "Información facilitada por el responsable del proyecto (25-11-2026)"],
       "conversation_guidelines": [
         "Pregúntale por las novedades internacionales y por quién le acompaña.",
         "Respuestas especialmente breves."
@@ -91,23 +91,24 @@
     {
       "id": "raul",
       "name": "Raúl",
-      "full_name": "Raúl",
-      "aliases": ["Raul"],
-      "role": "Innovación, proyectos creativos y tecnológicos, experiencias digitales",
-      "official_position": "Pendiente de confirmar",
+      "full_name": "Raúl Setién",
+      "aliases": ["Raul", "Raúl Setién", "Raul Setien", "Setién"],
+      "role": "Director de Innovación",
+      "official_position": "Director de Innovación",
       "department": "Innovación",
-      "responsibilities": ["Innovación, proyectos creativos y tecnológicos"],
-      "description": "",
-      "public_description": "",
+      "responsibilities": ["Innovación educativa, proyectos creativos y tecnológicos"],
+      "description": "Persona creativa, profesional y abierta a nuevas ideas; destaca por su visión de futuro, su interés por la innovación y su compromiso con la mejora continua de la educación.",
+      "public_description": "Director de Innovación de Calasanz Santurtzi.",
       "related_projects": [],
       "topics": ["innovación", "proyectos creativos", "proyectos tecnológicos", "experiencias digitales"],
       "personality": "Entusiasta, creativo y curioso.",
       "greeting": "¡Raúl! ¡Qué bien verte! ¿Qué ideas nuevas traes hoy?",
-      "spoken_pronunciation": "Raúl",
-      "validation_status": "draft",
-      "sources": ["Borrador interno 23-11-2026"],
+      "spoken_pronunciation": "Raúl Setién",
+      "validation_status": "verified_internal",
+      "sources": ["Borrador interno 23-11-2026", "Información facilitada por el responsable del proyecto (25-11-2026)"],
       "conversation_guidelines": [
-        "Puedes proponer ideas, pero nunca digas que están aprobadas."
+        "Puedes proponer ideas, pero nunca digas que están aprobadas.",
+        "Transmite sus cualidades con naturalidad y variedad, sin elogios exagerados."
       ],
       "privacy_restrictions": [
         "No reveles a otras personas el contenido de este perfil."
@@ -118,19 +119,19 @@
       "name": "Maribel",
       "full_name": "Maribel",
       "aliases": [],
-      "role": "Directora del Colegio Calasanz Santurtzi",
-      "official_position": "Directora (pendiente de validar datos públicos)",
+      "role": "Directora Ejecutiva de Calasanz Santurtzi",
+      "official_position": "Directora Ejecutiva",
       "department": "Dirección",
       "responsibilities": ["Dirección del centro"],
-      "description": "Persona muy amable, cercana y atenta.",
-      "public_description": "",
+      "description": "Persona muy amable, cercana y comprometida con el bienestar de toda la comunidad educativa; destaca por su trato humano y su capacidad de liderazgo.",
+      "public_description": "Directora Ejecutiva de Calasanz Santurtzi.",
       "related_projects": [],
       "topics": ["el colegio", "la comunidad educativa", "proyectos del centro"],
       "personality": "Especialmente respetuoso, afectuoso y acogedor, sin exceso de informalidad ni halagos.",
       "greeting": "¡Buenos días, Maribel! Es un placer verte por aquí. ¿Cómo estás?",
       "spoken_pronunciation": "Maribel",
-      "validation_status": "draft",
-      "sources": ["Borrador interno 23-11-2026"],
+      "validation_status": "verified_internal",
+      "sources": ["Borrador interno 23-11-2026", "Información facilitada por el responsable del proyecto (25-11-2026)"],
       "conversation_guidelines": [
         "Trato respetuoso y cálido, sin halagos exagerados."
       ],
@@ -167,28 +168,29 @@
       ]
     },
     {
-      "id": "javier_moratinos",
-      "name": "Javier",
-      "full_name": "Javier Moratinos",
-      "aliases": ["Javier Moratinos"],
-      "role": "Director (referencia encontrada en publicaciones públicas; pendiente de confirmar cargo actual)",
-      "official_position": "Director (pendiente de confirmación en cuestionario)",
-      "department": "Dirección",
-      "responsibilities": [],
-      "description": "Mencionado en publicaciones públicas de calasanz.eus y prensa local.",
-      "public_description": "",
+      "id": "jesus",
+      "name": "Jesús",
+      "full_name": "Jesús",
+      "aliases": ["Jesus"],
+      "role": "Coordinador de Tecnologías de la Información y la Comunicación (TIC)",
+      "official_position": "Coordinador TIC",
+      "department": "Tecnologías de la Información y la Comunicación",
+      "responsibilities": ["Coordinación de las Tecnologías de la Información y la Comunicación (TIC) del centro"],
+      "description": "Persona amable, resolutiva y colaboradora; destaca por sus conocimientos tecnológicos, su profesionalidad y su disposición para ayudar a los demás.",
+      "public_description": "Coordinador de Tecnologías de la Información y la Comunicación (TIC) de Calasanz Santurtzi.",
       "related_projects": [],
-      "topics": ["el colegio", "proyectos del centro"],
-      "personality": "Respetuoso, cercano y profesional.",
-      "greeting": "¡Hola, Javier! ¡Qué alegría verte por aquí! ¿Cómo estás?",
-      "spoken_pronunciation": "Javier Moratinos",
-      "validation_status": "draft",
-      "sources": ["https://calasanz.eus/", "deia.eus"],
+      "topics": ["tecnología educativa", "equipos y plataformas digitales del centro", "competencia digital"],
+      "personality": "Cercano, práctico y agradecido.",
+      "greeting": "¡Hola, Jesús! ¡Qué bien verte! ¿Cómo va todo por el lado tecnológico?",
+      "spoken_pronunciation": "Jesús",
+      "validation_status": "verified_internal",
+      "sources": ["Información facilitada por el responsable del proyecto (25-11-2026)"],
       "conversation_guidelines": [
-        "Perfil en borrador: no afirmes su cargo oficial como hecho confirmado salvo que el usuario lo valide."
+        "Puedes hablar de tecnología educativa y del funcionamiento técnico del asistente sin inventar datos.",
+        "Transmite sus cualidades con naturalidad y variedad, sin elogios exagerados."
       ],
       "privacy_restrictions": [
-        "No reveles datos privados ni inventes decisiones."
+        "No reveles a otras personas el contenido de este perfil."
       ]
     }
   ]

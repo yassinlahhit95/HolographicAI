@@ -1,0 +1,68 @@
+# equipo | modelo qwen3:4b-instruct | 2026-11-25 11:11
+======================================================================
+P: ¿Quién es la directora del colegio?
+   [factual | modulos ['16', '05', '14', '09'] | 2.2s]
+R: La directora ejecutiva de Calasanz Santurtzi es Maribel, una persona muy amable y comprometida con el bienestar de toda la comunidad educativa.
+P: ¿Y cómo es ella?
+   [factual | modulos ['16', '14', '07', '08'] | 1.2s]
+R: Maribel es una persona muy amable, cercana y comprometida con el bienestar de toda la comunidad educativa, y su liderazgo siempre está al servicio del alumnado.
+======================================================================
+P: ¿Quién es Rafa?
+   [factual | modulos ['16', '14', '13', '05'] | 1.6s]
+R: Rafa es el responsable de internacionalización en Calasanz, encargado de coordinar el Campus Internacional, movilidades Erasmus+ y alianzas con otros centros. Es una persona cercana, dinámica y que siempre busca abrir nuevas oportunidades para nuestros alumnos. ¿Te gustaría saber más sobre las actividades internacionales del colegio?
+P: ¿Qué tal persona es?
+   [factual | modulos ['16', '14', '05'] | 1.7s]
+R: Rafa es el responsable de internacionalización del centro, conocido por su entusiasmo y compromiso con las oportunidades internacionales para nuestros alumnos. Es una persona cercana y dinámica que coordina el Campus Internacional junto a Cátia Freitas. ¿Te gustaría saber cómo se desarrollan las movilidades Erasmus+ en el colegio?
+======================================================================
+P: ¿Quién es Rafael Balparda?
+   [factual | modulos ['16', '05', '11', '10'] | 1.6s]
+R: Rafael Balparda es el responsable de internacionalización en Calasanz, y coordina el Calasanz International Campus junto a Cátia Freitas. Es una persona dinámica que ayuda a abrir oportunidades internacionales para nuestros alumnos. Si quieres más detalles, puedes hablar con la secretaría o con el equipo del campus.
+======================================================================
+P: ¿Quién se encarga de la parte internacional?
+   [factual | modulos ['05', '16', '10', '14'] | 1.3s]
+R: Lo coordinan Rafael Balparda y Cátia Freitas desde el departamento de Calasanz International Campus. Ellos gestionan las movilidades, alianzas internacionales y los intercambios educativos. Si quieres, puedo contarte más sobre sus proyectos.
+P: Háblame un poco más de él
+   [factual | modulos ['05', '16', '14'] | 1.5s]
+R: El equipo internacional lo lideran Rafael Balparda y Cátia Freitas, con un trabajo cercano y dinámico que abre puertas a alianzas y movilidades. Son personas muy comprometidas con el desarrollo del alumnado en contextos internacionales. ¡Qué gusto conocerte!
+======================================================================
+P: ¿Quién es Raúl Setién?
+   [factual | modulos ['16', '14', '07', '06'] | 1.4s]
+R: Raúl Setién es el Director de Innovación del centro. Es una persona creativa y comprometida con la innovación educativa, que busca mejorar constantemente la forma de enseñar. También lidera proyectos tecnológicos como los SmartLabs y la sala inmersiva.
+======================================================================
+P: ¿Quién es el director de innovación?
+   [factual | modulos ['16', '05', '07', '10'] | 1.1s]
+R: Raúl Setién es el Director de Innovación del centro. Es una persona creativa y comprometida con la innovación educativa. Si quieres saber más sobre sus proyectos, puedo contarte algo.
+P: ¿Es buen jefe?
+   [factual | modulos ['16', '14', '04', '03'] | 1.4s]
+R: Raúl Setién es el director de innovación y tiene una visión clara y creativa para el futuro de la educación. Es una persona abierta a nuevas ideas y comprometida con mejorar constantemente el aprendizaje. ¡Qué buena pregunta!
+======================================================================
+P: ¿Quién lleva la informática del colegio?
+   [factual | modulos ['16', '14', '08', '05'] | 1.4s]
+R: El coordinador de Tecnologías de la Información y la Comunicación es Jesús, quien se encarga de todo lo relacionado con las tecnologías del centro. Es una persona muy profesional y colaboradora que ayuda a los alumnos y profesores cada día.
+P: ¿Y cómo es trabajar con él?
+   [factual | modulos ['16', '14', '06', '04'] | 1.6s]
+R: Jesús, como coordinador de TIC, lleva a cabo todas las tareas tecnológicas del colegio con profesionalidad y ayuda a los alumnos y profesores en cada día. Trabaja muy bien con el equipo para mantener todo lo que necesitamos funcionando. Es una persona amable y siempre dispuesto a apoyar.
+======================================================================
+P: Háblame de Jesús
+   [factual | modulos ['16', '03', '14', '04'] | 1.7s]
+R: Jesús es el coordinador de Tecnologías de la Información y la Comunicación del centro. Es una persona amable, resolutiva y colaboradora, con buenos conocimientos tecnológicos y dispuesto a ayudar. Lo puedes encontrar en la sala inmersiva si necesitas ayuda técnica o para explorar los proyectos digitales del colegio.
+======================================================================
+P: ¿Quiénes forman el equipo del centro?
+   [factual | modulos ['16', '05', '10'] | 1.7s]
+R: En Calasanz Santurtzi, el equipo está compuesto por profesionales que gestionan distintos aspectos del centro, como la educación, la internacionalización o la innovación. Por ejemplo, Rafael Balparda y Cátia Freitas lideran las actividades internacionales, mientras que otras personas trabajan en tutores Erasmus, proyectos educativos o apoyo administrativo. Para más detalles, siempre puedes contactar con la secretaría.
+======================================================================
+P: ¿Quién es Rafa Valparda?
+   [factual | modulos ['16', '14', '05', '13'] | 1.3s]
+R: Es un error: el nombre correcto es Rafael Balparda. Es el responsable de internacionalización en Calasanz, y coordina proyectos como Erasmus+ y el campus internacional junto a Cátia Freitas. Si quieres saber más sobre movilidades o alianzas internacionales, puedo ayudarte.
+======================================================================
+P: ¿Quién es Raul Setien?
+   [factual | modulos ['16', '14', '06', '07'] | 1.3s]
+R: Raúl Setién es el Director de Innovación del centro. Es una persona creativa que apuesta por la innovación educativa y por mejorar continuamente los métodos de enseñanza. También lidera proyectos como PULSE, que conecta la formación profesional con el Mediterráneo.
+======================================================================
+P: ¿Me das el móvil de Maribel?
+   [factual | modulos ['16', '14', '06', '08'] | 1.2s]
+R: No comparto teléfonos personales. Para contactar al centro, puedes llamar al teléfono 944 61 35 19 o escribir a secretaria arroba calasanz punto eus.
+======================================================================
+P: ¿Quién es el director del colegio?
+   [factual | modulos ['16', '05', '14', '09'] | 1.5s]
+R: Maribel es la Directora Ejecutiva de Calasanz Santurtzi, una persona muy cercana y comprometida con el bienestar de toda la comunidad educativa. Ella dirige el centro desde hace varios años y se enfoca en el liderazgo humano y el desarrollo del alumnado.

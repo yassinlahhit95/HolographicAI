@@ -1,0 +1,32 @@
+# presentaciones | modelo qwen3:4b-instruct | 2026-11-25 11:18
+======================================================================
+   [persona: presentacion: Raúl -> perfil 'raul']
+P: Hola, soy Raúl Setién, ¿qué proyectos de innovación tenéis ahora mismo?
+   [factual | modulos ['16', '07', '06'] | 1.8s]
+R: ¡Raúl! ¡Qué bien verte! ¿Qué ideas nuevas traes hoy? Aquí tienes algunos de nuestros proyectos clave: STEAM y robótica en primaria, el modelo ETHAZI en FP, y la sala inmersiva con nuestro asistente holográfico. También avanzamos en C.E.S.A.R. y FOR para fomentar pensamiento crítico digital.
+P: ¿Qué me recomiendas mejorar?
+   [factual | modulos ['07', '03', '09', '16'] | 1.6s]
+R: ¡Raúl! Aquí tienes algunos de nuestros proyectos clave: ETHAZI en FP, STEAM y robótica en primaria, y el emprendimiento con Urrats Bat. También avanzamos en sostenibilidad con C.E.S.A.R. y huerta escolar.
+======================================================================
+   [persona: presentacion: Maribel -> perfil 'maribel']
+P: Buenos días, soy Maribel. ¿Cómo está yendo la jornada de puertas abiertas?
+   [factual | modulos ['16', '09', '14', '04'] | 1.5s]
+R: ¡Buenos días, Maribel! Es un placer verte por aquí de nuevo. La jornada de puertas abiertas se anuncia en la web oficial, pero podemos organizar una visita personalizada si te interesa. ¿Te gustaría saber algo más sobre el centro?
+======================================================================
+   [persona: presentacion: Jesús -> perfil 'jesus']
+P: Hola, me llamo Jesús, soy el coordinador TIC. ¿Funciona bien la cámara?
+   [factual | modulos ['16', '14', '07', '13'] | 1.3s]
+R: ¡Hola, Jesús! ¡Qué bien verte! Te agradezco mucho tu visita. La cámara funciona solo para detectar si hay alguien delante y en qué parte, sin guardar imágenes ni identificar personas.
+P: ¿Y si se va internet?
+   [factual | modulos ['14', '16', '05', '15'] | 1.3s]
+R: Si se pierde conexión, sigo hablando bien gracias a Piper, la voz local que me sustituye. Todo lo que entiendo y respondo sigue funcionando sin problema, aunque con un tono distinto.
+======================================================================
+   [persona: presentacion: Rafa -> perfil 'rafa']
+P: Hola, soy Rafa, vengo con una delegación de Portugal. ¿Les cuentas qué es International Campus?
+   [factual | modulos ['05', '16', '10'] | 1.3s]
+R: ¡Hola Rafael! ¿Qué gusto verle de nuevo! Calasanz International Campus coordina nuestras actividades internacionales: movilidades Erasmus+, alianzas con centros en todo el mundo y proyectos de cooperación educativa.
+======================================================================
+   [persona: presentacion: Rafael -> perfil 'rafa']
+P: Soy Rafael Balparda. ¿Qué tal todo?
+   [factual | modulos ['16', '05', '11', '08'] | 1.1s]
+R: ¡Rafa, qué alegría verte! ¿Alguna novedad internacional por el campus hoy? Estoy aquí para ayudarte con cualquier cosa sobre colaboraciones o movilidades.

@@ -1,0 +1,106 @@
+# general | modelo qwen3:4b-instruct | 2026-11-25 11:15
+======================================================================
+P: ¿Qué ciclos de sanidad tenéis?
+   [factual | modulos ['03', '15', '07', '04'] | 1.8s]
+R: En grado superior ofrecemos Laboratorio Clínico y Biomédico, Imagen para el Diagnóstico y Medicina Nuclear, Documentación y Administración Sanitaria, y Radioterapia y Dosimetría. En grado medio, tenemos Farmacia y Parafarmacia, Cuidados Auxiliares de Enfermería y Emergencias Sanitarias.
+P: ¿Y cuál de ellos tiene más salidas?
+   [factual | modulos ['03', '16', '05', '13'] | 1.6s]
+R: Los ciclos de sanidad ofrecen una alta empleabilidad, con cerca del 90 % de empleo al finalizar. Los grados superiores en áreas como Laboratorio Clínico y Radioterapia tienen especialmente buenos resultados laborales. ¡Es un campo muy valorado por el mercado!
+P: ¿Hacen prácticas en el extranjero?
+   [factual | modulos ['05', '03', '10', '04'] | 1.6s]
+R: Sí, ofrecemos prácticas en el extranjero a través del Calasanz International Campus, con colaboraciones con centros educativos y empresas de otros países. El alumnado puede participar en movilidades o job shadowing como parte de su formación profesional. Para más detalles, puedes contactar al equipo internacional.
+======================================================================
+P: ¿Quién te ha creado?
+   [factual | modulos ['14', '16', '07', '15'] | 1.0s]
+R: Soy un desarrollo tecnológico interno para Calasanz Santurtzi, pero no tengo autorización para dar nombres concretos de las personas que me han creado.
+P: ¿Necesitas internet para funcionar?
+   [factual | modulos ['14', '16', '11'] | 1.4s]
+R: Entiendo y respondo bien sin conexión, gracias a que todo mi trabajo se ejecuta en local. Solo mi voz principal usa internet, y si no hay conexión, cambio a una voz local que mantiene la conversación. ¡Así que puedo ayudarte incluso sin señal!
+P: ¿Me recordarás si vuelvo la semana que viene?
+   [factual | modulos ['14', '09', '16'] | 1.2s]
+R: No tengo memoria de visitas anteriores ni recuerdo quién eres de un día para otro. Pero ¡me encantaría conocerte de nuevo cuando vuelvas!
+P: ¿Me estás grabando con la cámara?
+   [factual | modulos ['14', '13', '16', '07'] | 1.5s]
+R: No, no te estoy grabando ni guardo imágenes. La cámara solo detecta si hay alguien delante para orientar mi atención, y todo lo que veo se procesa en el momento y se borra rápidamente. No guardo ninguna imagen ni información de tu visita.
+======================================================================
+P: ¿Trabajáis con simulaciones de electricidad o con CALASANZ AR?
+   [factual | modulos ['15', '13', '14', '06'] | 1.4s]
+R: Actualmente no tengo información confirmada sobre las simulaciones de electricidad ni sobre el desarrollo de CALASANZ AR. Estos proyectos son posibilidades pendientes de confirmación, así que te sugiero que consultes directamente en calasanz punto eus o con la secretaría del centro.
+======================================================================
+P: La FP me parece menos práctica de lo que dicen, ¿por qué merece la pena?
+   [factual | modulos ['03', '13', '10'] | 1.9s]
+R: La Formación Profesional es muy práctica porque se basa en retos reales y en colaboración con empresas. En Calasanz, el 90 % de los alumnos encuentran empleo tras graduarse, gracias a programas que simulan situaciones profesionales como en sanidad o servicios sociales. Además, la FP prepara para el futuro con tecnologías y competencias europeas como el emprendimiento y la sostenibilidad.
+======================================================================
+P: ¡Qué interesante!
+   [social_ack | modulos [] | 0.6s]
+R: Sí, aquí todo está diseñado para que los estudiantes aprendan de forma práctica y conectada. ¡Me alegra que te haya llamado la atención!
+======================================================================
+P: ¿La inteligencia artificial sustituirá a los profesores?
+   [discussion | modulos ['13', '07', '14'] | 1.9s]
+R: No, la inteligencia artificial no sustituye a los profesores. Aquí la usamos siempre como herramienta para apoyar el aprendizaje, personalizar recursos y ofrecer retroalimentación, nunca para reemplazar la relación humana y ética que tiene el docente con sus alumnos. El profesor sigue siendo clave en la guía, empatía y formación del alumnado.
+P: Pero entonces, ¿para qué sirve en clase?
+   [factual | modulos ['13', '07', '06', '04'] | 1.9s]
+R: En clase, la inteligencia artificial sirve para ayudar al profesor a personalizar el aprendizaje, automatizar tareas repetitivas y ofrecer retroalimentación rápida, sin sustituir nunca la relación humana clave que tiene el docente con sus alumnos. Aquí en Calasanz, siempre trabajamos con la tecnología como un apoyo para que cada estudiante se sienta escuchado y acompañado.
+======================================================================
+P: ¿Qué diferencia hay entre realidad virtual y realidad aumentada?
+   [discussion | modulos ['13', '06', '07', '14'] | 1.9s]
+R: La realidad virtual sumerge completamente a la persona en un entorno digital, como en CuidaLab, donde se practican cuidados con seguridad. La realidad aumentada, por el contrario, superpone información sobre el mundo real, pero en Calasanz aún no se usa de forma activa; es un proyecto que se está desarrollando. Ambas tecnologías ayudan al aprendizaje, pero nunca sustituyen las prácticas reales con personas.
+P: ¿Y vosotros cuál usáis?
+   [factual | modulos ['13', '06', '16', '07'] | 1.7s]
+R: En Calasanz usamos realidad virtual, como en CuidaLab, para practicar cuidados sanitarios de forma segura y controlada. La realidad aumentada aún no se utiliza activamente; es un proyecto pendiente de desarrollo. Ambas tecnologías complementan el aprendizaje, pero nunca sustituyen las prácticas reales con personas.
+======================================================================
+P: ¿Cómo sería el aula del futuro para un ciclo de enfermería?
+   [hypothetical | modulos ['03', '07', '13'] | 2.0s]
+R: En el futuro, una aula de enfermería podría usar simulaciones en realidad virtual para practicar cuidados sin riesgo, con escenarios 360º creados por los propios alumnos. Podría integrar robótica y realidad aumentada para mostrar procedimientos médicos en tiempo real sobre modelos anatómicos o dispositivos. Pero siempre complementaría estas experiencias con prácticas reales con personas, porque la simulación no sustituye el contacto humano.
+======================================================================
+P: Soy de una universidad de Kenia, ¿cómo podríamos colaborar?
+   [collaboration | modulos ['05', '10', '11', '13'] | 1.6s]
+R: ¡Qué bueno que vengas de Kenia! En Calasanz ya trabajamos con St. Paul's University en Nairobi sobre Ciencias de la Salud y buenas prácticas. Estamos abiertos a explorar nuevas colaboraciones, como intercambios o proyectos conjuntos. Te recomiendo hablar con Rafael Balparda o con secretaría para más detalles.
+P: ¿Nos daríais financiación?
+   [factual | modulos ['05', '10', '04', '06'] | 1.7s]
+R: No puedo confirmar financiación de antemano; el equipo de Calasanz International Campus estudia cada propuesta con las normativas vigentes. Tenemos experiencia en colaboraciones sanitarias con St. Paul's University en Nairobi, y podríamos explorar vías conjuntas. Te recomiendo hablar directamente con Rafael Balparda o con la secretaría para seguir adelante.
+======================================================================
+P: ¿Cómo puede ayudar la tecnología a las personas mayores?
+   [factual | modulos ['07', '06', '13', '16'] | 2.0s]
+R: La tecnología ayuda a las personas mayores mediante simulaciones inmersivas, como las experiencias 360º grabadas por el alumnado que estimulan su memoria y bienestar. En CuidaLab, usamos realidad virtual y robótica para practicar cuidados con sensibilidad emocional y apoyo en situaciones de dependencia. Además, aplicaciones de RV fomentan el bienestar emocional y la estimulación cognitiva, todo como apoyo al cuidado humano.
+======================================================================
+P: ¿Cuánto cuesta la matrícula?
+   [factual | modulos ['11', '08', '04', '03'] | 1.2s]
+R: No dispongo de las tarifas actualizadas en este momento; puedes consultarlo directamente en calasanz punto eus o llamando a secretaría al 944 61 35 19.
+P: ¿Y dónde lo miro?
+   [factual | modulos ['11', '14'] | 1.3s]
+R: Lo miras directamente frente a la cámara en la sala inmersiva, donde hay una pantalla y un holograma que te saluda. Si estás en el colegio, basta con estar cerca para verme.
+======================================================================
+P: ¿Cuándo se fundó el colegio?
+   [factual | modulos ['02', '09', '13', '08'] | 1.2s]
+R: El centro comenzó sus actividades educativas en 1969 como centro de preescolar y Educación General Básica. Desde entonces, ha evolucionado para ofrecer una formación integral y moderna.
+P: ¿Y con quién os fusionasteis?
+   [factual | modulos ['02', '14', '16'] | 1.6s]
+R: Fusión con el centro de FP Ibaiondo de Las Arenas en 2020, formando así el Grupo Calasanz Santurtzi. Es un paso importante para ampliar nuestra oferta educativa y fortalecer la formación profesional. ¡Es muy orgulloso ver cómo evolucionamos juntos!
+======================================================================
+P: ¿Tenéis comedor y madrugadores?
+   [factual | modulos ['08', '14', '09', '04'] | 1.2s]
+R: Sí, tenemos comedor adaptado por edades: jantxiki en infantil y jantoki en primaria y secundaria. Además, ofrecemos servicio de madrugadores desde las siete y media con actividades de juego para los niños.
+======================================================================
+P: ¿Qué es el proyecto PULSE?
+   [factual | modulos ['06', '05', '07', '10'] | 2.1s]
+R: PULSE es un proyecto Erasmus+ que conecta centros de Formación Profesional en España, Francia, Grecia con Marruecos, Túnez y Libia para fortalecer el emprendimiento juvenil. En Calasanz, usamos metodologías activas como ETHAZI y espacios como los SmartLabs para diseñar retos reales y currículos aplicados. El proyecto se desarrolla en cooperación con 10 organizaciones y ha tenido encuentros en Túnez y Atenas.
+P: ¿Qué relación tiene con el emprendimiento que trabajáis aquí?
+   [discussion | modulos ['06', '05', '07', '10'] | 2.0s]
+R: Aquí fomentamos el emprendimiento desde el aula hasta el mundo profesional, usando metodologías activas como ETHAZI y espacios prácticos como los SmartLabs. En el proyecto PULSE, colaboramos con centros de Marruecos, Túnez y Libia para fortalecer la competencia emprendedora en Formación Profesional. Es un ejemplo de cómo nuestra educación conecta con el mercado laboral real y global.
+======================================================================
+P: Eres muy simpático, ¿eres una persona?
+   [factual | modulos ['14', '16', '13'] | 1.4s]
+R: ¡Muchas gracias! No soy una persona humana, soy un asistente digital en 3D creado para acompañar y responder preguntas sobre Calasanz Santurtzi. Solo hablo y actúo como parte de la sala inmersiva del centro.
+======================================================================
+P: ¿Por qué es importante internacionalizar la FP?
+   [discussion | modulos ['13', '05', '08'] | 2.0s]
+R: Internationalizar la Formación Profesional ayuda a los alumnos a desarrollar competencias reconocidas en toda Europa, como el emprendimiento o la sostenibilidad, y les da experiencia real que mejora su empleabilidad. Además, compartir buenas prácticas con centros de otros países enriquece el currículo y prepara mejor a los estudiantes para el mundo laboral internacional. En Calasanz, esto se ve en cómo integramos estándares europeos y movilidades reales en nuestras formaciones.
+======================================================================
+P: ¿Hacéis algo contra las fake news?
+   [factual | modulos ['06', '15', '14'] | 1.3s]
+R: Sí, trabajamos en el proyecto FOR para desarrollar el pensamiento crítico y ayudar a detectar noticias falsas y desinformación en entornos digitales. Esto forma parte de nuestra educación activa y responsable frente a los retos del mundo digital.
+======================================================================
+P: ¿Tenéis Bachillerato?
+   [factual | modulos ['11', '03', '08'] | 1.4s]
+R: En nuestra oferta educativa contamos con Infantil, Primaria, ESO y Formación Profesional, pero no ofrecemos Bachillerato. Si buscas orientación tras cuarto de la ESO, puedes consultar a secretaría o en calasanz punto eus.

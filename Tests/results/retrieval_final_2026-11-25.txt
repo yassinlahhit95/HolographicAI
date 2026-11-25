@@ -1,0 +1,26 @@
+[e5] 105 preguntas: entregado 102/105 = 97.1% | top1 82.9% | 3761 car/pregunta
+   FALLO: ¿Qué es eso de la Q de Plata? esperado ['02', '09'] recibe ['16', '07', '10', '14']
+   FALLO: ¿Hay emergencias sanitarias? esperado ['03'] recibe ['05', '07', '08', '06']
+   FALLO: ¿Hay una plataforma para gestionar Erasmus? esperado ['15'] recibe ['06', '05', '10']
+[e5] variantes internet: entregado 10/10 = 100.0% | top1 100.0% | 4070 car/pregunta
+[e5] campus: modulo 37/37 | top1 35/37 | seccion correcta 37/37   directa 26/26  varias 3/3  transcripcion 8/8
+[e5] equipo: modulo 21/21 | top1 21/21 | seccion correcta 21/21   nombre 8/8  cargo 7/7  transcripcion 6/6
+[fallback] 105 preguntas: entregado 99/105 = 94.3% | top1 77.1% | 3902 car/pregunta
+   FALLO: ¿Desde cuándo hay Formación Profesional aquí? esperado ['02'] recibe ['11', '09', '04']
+   FALLO: ¿Qué es el proyecto ONE TO ONE? esperado ['03'] recibe ['06', '10', '16']
+   FALLO: ¿Con qué países europeos colaboráis? esperado ['05'] recibe ['06', '13', '10', '16']
+   FALLO: ¿Hacéis excursiones? esperado ['09'] recibe ['10', '08', '14', '15']
+   FALLO: ¿Hay una plataforma para gestionar Erasmus? esperado ['15'] recibe ['05', '06', '10']
+   FALLO: ¿Hacéis simulaciones de construcción? esperado ['15'] recibe ['13', '07', '14']
+[fallback] variantes internet: entregado 9/10 = 90.0% | top1 70.0% | 4032 car/pregunta
+   FALLO: ¿Necesitas red para entenderme? esperado ['11', '14'] recibe ['10', '07', '06']
+[fallback] campus: modulo 37/37 | top1 34/37 | seccion correcta 33/37   directa 24/26  varias 3/3  transcripcion 6/8
+   FALLO [directa] ¿Qué es EFVET? esperado ['10']/EFVET recibe ['10', '14', '05', '16'] ['Redes e instituciones: visió', 'Conexión a internet: qué fun', 'Servicios de Calasanz Intern', 'Rafa (Rafael Balparda), Resp']
+   FALLO [directa] ¿Qué es la CECE? esperado ['10']/CECE recibe ['10', '14', '16'] ['Regla de transparencia', 'Bilbao Metropoli 30', 'Conexión a internet: qué fun', 'Jesús, Coordinador TIC (Tecn', 'Maribel, Directora Ejecutiva']
+   FALLO [transcripcion] ¿Qué es EFE VET? esperado ['10']/EFVET recibe ['13', '14', '10', '05'] ['Conceptos de cooperación eur', 'Conexión a internet: qué fun', 'Redes e instituciones: visió', 'Calasanz International Campu']
+   FALLO [transcripcion] ¿Trabajáis con el Injube? esperado ['10']/INJUVE recibe ['10', '05', '16'] ['Tknika (innovación en FP del', 'Redes europeas de FP: EFVET,', 'Visión y objetivos de la int', 'Raúl Setién, Director de Inn', 'Quién es quién en el equipo ']
+[fallback] equipo: modulo 21/21 | top1 21/21 | seccion correcta 17/21   nombre 7/8  cargo 6/7  transcripcion 4/6
+   FALLO [cargo] ¿Quién se encarga de la innovación en el colegio? esperado ['16']/Raúl recibe ['16', '14', '05', '07'] ['Quién es quién en el equipo ', 'Cámara, memoria de sesión y ', 'Quién soy y cuál es mi propó', 'Asia (Misión educativa en Ch', 'Innovación educativa y trans']
+   FALLO [nombre] ¿Quién es Jesús? esperado ['16']/Jesús recibe ['16', '14', '13', '10'] ['Quién es quién en el equipo ', 'Quién soy y cuál es mi propó', 'Conceptos de internacionaliz', 'SEPIE (Agencia Nacional Eras']
+   FALLO [transcripcion] ¿Quién es Jesus? esperado ['16']/Jesús recibe ['16', '14', '13', '10'] ['Quién es quién en el equipo ', 'Quién soy y cuál es mi propó', 'Conceptos de internacionaliz', 'SEPIE (Agencia Nacional Eras']
+   FALLO [transcripcion] ¿Quién es Mari Bel? esperado ['16']/Maribel recibe ['16', '14', '13', '10'] ['Quién es quién en el equipo ', 'Quién soy y cuál es mi propó', 'Conceptos de internacionaliz', 'Regla de transparencia']
